@@ -5,7 +5,7 @@ StackOverflow will help us answer this burning question. Each post on Stack Over
 
 ## learning
 
--- used .groupby() to explore the number of posts and entries per programming language
+- used .groupby() to explore the number of posts and entries per programming language
 
 converted strings to Datetime objects with to_datetime() for easier plotting
 
