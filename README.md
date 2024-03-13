@@ -7,16 +7,16 @@ StackOverflow will help us answer this burning question. Each post on Stack Over
 
 - used .groupby() to explore the number of posts and entries per programming language
 
-converted strings to Datetime objects with to_datetime() for easier plotting
+- converted strings to Datetime objects with to_datetime() for easier plotting
 
-reshaped our DataFrame by converting categories to columns using .pivot()
+- reshaped our DataFrame by converting categories to columns using .pivot()
 
-used .count() and isna().values.any() to look for NaN values in our DataFrame, which we then replaced using .fillna()
+- used .count() and isna().values.any() to look for NaN values in our DataFrame, which we then replaced using .fillna()
 
-created (multiple) line charts using .plot() with a for-loop
+- created (multiple) line charts using .plot() with a for-loop
 
-styled our charts by changing the size, the labels, and the upper and lower bounds of our axis.
+- styled our charts by changing the size, the labels, and the upper and lower bounds of our axis.
 
-added a legend to tell apart which line is which by colour
+- added a legend to tell apart which line is which by colour
 
-smoothed out our time-series observations with .rolling().mean() and plotted them to better identify trends over time.
+- smoothed out our time-series observations with .rolling().mean() and plotted them to better identify trends over time.
